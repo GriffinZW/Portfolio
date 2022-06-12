@@ -1,21 +1,9 @@
 body {
-  background-image: linear-gradient(to bottom, #00e0ff, #00c5ff, #00a7ff, #0086ff, #125feb);
+  background-color: #4eb7d4;
 }
 .list {
   font-size: 25px;
 }
 .card{
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-.card-img-top {
-  width: 100%;
-  height: 30vh;
-  object-fit: contain;
-}
-h3 {
-  text-decoration: underline;
-}
-.h3Header{
-  all: none;  
+margin-bottom: 20px;
 }
