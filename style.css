@@ -1,9 +1,29 @@
 body {
   background-color: #4eb7d4;
+font-family: "Courier, monospace";
 }
 .list {
   font-size: 25px;
 }
 .card{
 margin-bottom: 20px;
+}
+.btn{
+border: 3px medium black;
+}
+a:visited {
+  color: white;
+}
+a:active {
+  color: blue;
+}
+.recentProjectsText{
+font-size: 50px ;
+}
+h2{
+font-size: 30px ;
+text-decoration: underline;
+}
+small{
+color:white;
 }
