@@ -1,29 +1,38 @@
 body {
   background-color: #4eb7d4;
-font-family: "Courier, monospace";
+  font-family: "Courier, monospace";
 }
 .list {
   font-size: 25px;
 }
-.card{
-margin-bottom: 20px;
+.card {
+  margin-bottom: 20px;
 }
-.btn{
-border: 3px medium black;
+.btn {
+  border: 3px medium black;
 }
 a:visited {
   color: white;
 }
-a:active {
+a:hover {
   color: blue;
 }
-.recentProjectsText{
-font-size: 50px ;
+.recentProjectsText {
+  font-size: 50px;
+  text-decoration: underline;
 }
-h2{
-font-size: 30px ;
-text-decoration: underline;
+h2 {
+  font-size: 30px;
 }
-small{
-color:white;
+small {
+  color: white;
+}
+.myNameText {
+  padding-top: 10px;
+}
+h3,
+.aboutMe {
+  text-decoration: underline;
+}
+.myAgeIs {
 }
