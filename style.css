@@ -1,38 +1,97 @@
-body {
-  background-color: #4eb7d4;
-  font-family: "Courier, monospace";
+body,
+html {
+  height: 80%;
 }
-.list {
-  font-size: 25px;
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.imgur.com/L3qBmGx.png");
+
+  /* Set a specific height */
+  height: 40%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-.card {
-  margin-bottom: 20px;
+/* Sergios Carousel code ? */
+.Car-img-sizer {
+  width: 100px;
+  height: 500px;
+  /* Sergios ^ */
 }
-.btn {
-  border: 3px medium black;
-}
-a:visited {
-  color: white;
-}
-a:hover {
-  color: blue;
-}
-.recentProjectsText {
-  font-size: 50px;
-  text-decoration: underline;
-}
-h2 {
-  font-size: 30px;
-}
-small {
-  color: white;
-}
-.myNameText {
-  padding-top: 10px;
-}
+body,
 h3,
-.aboutMe {
-  text-decoration: underline;
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
 }
-.myAgeIs {
+
+footer {
+  display: block;
+  text-align: center;
+  background-color: black;
+  color: grey;
+  font-family: "New Century Schoolbook", "TeX Gyre Schola", "serif";
+  font-size: 20px;
+}
+.katieKirlinFund {
+  font-family: "New Century Schoolbook", "TeX Gyre Schola", "serif";
+  font-weight: 700;
+  font-size: 20px;
+}
+.otherMediaPic1,
+.otherMediaPic2 {
+  width: 350px;
+  height: 300px;
+}
+a {
+  font-family: "New Century Schoolbook", "TeX Gyre Schola", "serif";
+  font-weight: 700;
+  font-size: 20px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2 {
+  background-color: red;
+  color: black;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.button2:hover {
+  background-color: rgb(180, 0, 0);
+  color: white;
+  border-radius: 12px;
+}
+a:visited,
+a:link {
+  color: white;
+}
+.float-right {
+  float: right;
+}
+.textfield {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  padding: 7px;
+  background: #efefef;
+  border: 1px solid #bbb;
+  width: 97%;
+}
+.textfield:focus {
+  background: #fbf8d2;
 }
