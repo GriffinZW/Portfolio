@@ -95,3 +95,6 @@ a:link {
 .textfield:focus {
   background: #fbf8d2;
 }
+btn {
+  color: black;
+}
